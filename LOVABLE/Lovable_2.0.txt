@@ -346,6 +346,7 @@ setQuote('I can't do this')
 This would fail to build because we're not escaping the quote properly. Instead we should write
 
 <code>
+
 setQuote("I can't do this")
 </code>
 
